@@ -1,7 +1,7 @@
-FROM ubuntu:trusty
+FROM ubuntu:latest
 MAINTAINER George Lewis <schvin@schvin.net>
 
-ENV REFRESHED_AT 2014-08-13
+ENV REFRESHED_AT 2015-03-30
 
 RUN apt-get update -y && apt-get upgrade -y && apt-get install -y unzip libreadline5 libssl-dev ipmitool freeipmi
 
